@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizable Digital Clock</title>
+    <link rel="stylesheet" href="css/project01.css">
+</head>
+<body>
+    <div class="clock-container">
+        <div id="clock"></div>
+        <div class="controls">
+            <label for="timeFormat">Time Format:</label>
+            <select id="timeFormat">
+                <option value="12">12-Hour</option>
+                <option value="24">24-Hour</option>
+            </select>
+            <label for="colorPicker">Clock Color:</label>
+            <input type="color" id="colorPicker">
+            <label for="fontSize">Font Size:</label>
+            <input type="number" id="fontSize" min="10" max="100" step="1">
+            <label for="alarmTime">Set Alarm:</label>
+            <input type="time" id="alarmTime">
+            <button id="setAlarm">Set Alarm</button>
+        </div>
+    </div>
+    <script src="js/project01.js"></script>
+</body>
+</html>

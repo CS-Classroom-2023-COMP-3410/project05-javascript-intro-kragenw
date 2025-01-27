@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+#search {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 60px);
+    gap: 5px;
+    justify-content: center;
+}
+
+.element {
+    width: 60px;
+    height: 60px;
+    background-color: #ddd;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.element:hover {
+    background-color: #ffa;
+}
+
+#element-info {
+    margin-top: 20px;
+    font-size: 18px;
+}

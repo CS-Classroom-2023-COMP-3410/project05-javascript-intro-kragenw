@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #00796b;
+}
+
+#choices button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #00796b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#choices button:hover {
+    background-color: #004d40;
+}
+
+#reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d32f2f;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.progress {
+    margin-top: 20px;
+}
+
+#progress-bar {
+    height: 20px;
+    background-color: #00796b;
+    width: 0;
+    transition: width 0.5s;
+    border-radius: 5px;
+}
