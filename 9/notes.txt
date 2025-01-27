@@ -1,1 +1,0 @@
-the animation is confusing, it his hard to tell exactly which numbers are going where, and the commentary is not very specific. it should say something like "# and # swapping"
