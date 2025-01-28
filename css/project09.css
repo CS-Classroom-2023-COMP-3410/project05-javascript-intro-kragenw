@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
+    background-image: url('background8.webp');
+    background-size: cover;
 }
 
 #array-container {

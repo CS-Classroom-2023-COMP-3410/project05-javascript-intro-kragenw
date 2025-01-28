@@ -4,6 +4,8 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+    background-image: url('background2.jpeg');
+    background-size:contain;
 }
 
 div.game-container {

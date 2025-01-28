@@ -7,6 +7,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url('background.jpeg');
+    background-size: cover;
+
+
 }
 
 .quiz-container {

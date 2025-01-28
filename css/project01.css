@@ -6,6 +6,8 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
     margin: 0;
+    background-image: url('background2.jpeg');
+    background-size:contain;
 }
 .clock-container {
     text-align: center;

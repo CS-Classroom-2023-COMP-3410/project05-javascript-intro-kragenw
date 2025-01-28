@@ -3,6 +3,8 @@ body {
     text-align: center;
     margin: 20px;
     background-color: #f4f4f4;
+    background-image: url('background5.webp');
+    background-size: cover;
 }
 
 #search {

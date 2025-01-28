@@ -1,4 +1,4 @@
-const cardsArray = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G', 'H', 'H'];
+const cardsArray = ['S', 'S', 'H', 'H', 'A', 'A', 'R', 'R', 'K', 'K', 'B', 'B', 'I', 'I', 'G', 'G'];
 let moves = 0;
 let timer;
 let seconds = 0;

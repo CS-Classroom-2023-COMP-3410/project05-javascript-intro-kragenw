@@ -4,6 +4,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    background-image: url('background6.webp');
+    background-size: cover;
 }
 
 .container {
